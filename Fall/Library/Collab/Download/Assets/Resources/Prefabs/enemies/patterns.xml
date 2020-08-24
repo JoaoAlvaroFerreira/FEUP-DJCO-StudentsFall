@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<patterns>
+  <enemies>
+    <enemy name="enemy_left_easy" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>2.0</value>
+      </pattern>
+      <position1 x="-3.0" y="-3.0" />
+      <position2 x="-3.0" y="-4.0" />
+      <fire interval="2.0" />
+      <hp>2</hp>
+    </enemy>
+    <enemy name="enemy_left_medium" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>1.0</value>
+        <value>2.0</value>
+      </pattern>
+      <position1 x="-3.0" y="-3.0" />
+      <position2 x="-3.0" y="-4.0" />
+      <fire interval="1.5" />
+      <hp>4</hp>
+    </enemy>
+    <enemy name="enemy_left_hard" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>-0.5</value>
+        <value>0.0</value>
+        <value>1.0</value>
+        <value>2.0</value>
+      </pattern>
+      <position1 x="-3.0" y="-3.0" />
+      <position2 x="-3.0" y="-4.0" />
+      <fire interval="0.75" />
+      <hp>5</hp>
+    </enemy>
+    <enemy name="enemy_right_easy" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>-2.0</value>
+      </pattern>
+      <position1 x="3.0" y="-3.0" />
+      <position2 x="3.0" y="-4.0" />
+      <fire interval="2.0" />
+      <hp>2</hp>
+    </enemy>
+    <enemy name="enemy_right_medium" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>-1.0</value>
+        <value>-2.0</value>
+      </pattern>
+      <position1 x="3.0" y="-3.0" />
+      <position2 x="3.0" y="-4.0" />
+      <fire interval="1.5" />
+      <hp>4</hp>
+    </enemy>
+    <enemy name="enemy_right_hard" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.5</value>
+        <value>0.0</value>
+        <value>-1.0</value>
+        <value>-2.0</value>
+      </pattern>
+      <position1 x="3.0" y="-3.0" />
+      <position2 x="3.0" y="-4.0" />
+      <fire interval="0.75" />
+      <hp>5</hp>
+    </enemy>
+    <enemy name="enemy_middle_super_easy" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>1.0</value>
+        <value>-1.0</value>
+      </pattern>
+      <position1 x="0.0" y="-3.0" />
+      <position2 x="0.0" y="-4.0" />
+      <fire interval="2.0" />
+      <hp>20</hp>
+    </enemy>
+    <enemy name="enemy_middle_easy" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+      </pattern>
+      <position1 x="0.0" y="-3.0" />
+      <position2 x="0.0" y="-4.0" />
+      <fire interval="2.0" />
+      <hp>2</hp>
+    </enemy>
+    <enemy name="enemy_middle_medium" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>-1.0</value>
+        <value>1.0</value>
+      </pattern>
+      <position1 x="0.0" y="-3.0" />
+      <position2 x="0.0" y="-4.0" />
+      <fire interval="1.5" />
+      <hp>4</hp>
+    </enemy>
+    <enemy name="enemy_middle_hard" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>-1.0</value>
+        <value>1.0</value>
+      </pattern>
+      <position1 x="0.0" y="-3.0" />
+      <position2 x="0.0" y="-4.0" />
+      <fire interval="0.75" />
+      <hp>5</hp>
+    </enemy>
+    <enemy name="enemy_middle_left_easy" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>-0.2</value>
+        <value>1.0</value>
+      </pattern>
+      <position1 x="-3.0" y="-3.0" />
+      <position2 x="-1.0" y="-4.0" />
+      <fire interval="2.0" />
+      <hp>2</hp>
+    </enemy>
+    <enemy name="enemy_middle_left_medium" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>-0.2</value>
+        <value>0.5</value>
+        <value>1.0</value>
+      </pattern>
+      <position1 x="-3.0" y="-3.0" />
+      <position2 x="-1.0" y="-4.0" />
+      <fire interval="1.5" />
+      <hp>4</hp>
+    </enemy>
+    <enemy name="enemy_middle_left_hard" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>-0.2</value>
+        <value>0.25</value>
+        <value>0.5</value>
+        <value>1.0</value>
+      </pattern>
+      <position1 x="-3.0" y="-3.0" />
+      <position2 x="-1.0" y="-4.0" />
+      <fire interval="0.75" />
+      <hp>5</hp>
+    </enemy>
+    <enemy name="enemy_middle_right_easy" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>0.2</value>
+        <value>-1.0</value>
+      </pattern>
+      <position1 x="3.0" y="-3.0" />
+      <position2 x="1.0" y="-4.0" />
+      <fire interval="2.0" />
+      <hp>2</hp>
+    </enemy>
+    <enemy name="enemy_middle_right_medium" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>0.2</value>
+        <value>-0.5</value>
+        <value>-1.0</value>
+      </pattern>
+      <position1 x="3.0" y="-3.0" />
+      <position2 x="1.0" y="-4.0" />
+      <fire interval="1.5" />
+      <hp>4</hp>
+    </enemy>
+    <enemy name="enemy_middle_right_hard" prefab="enemy_1" boss="0">
+      <pattern>
+        <value>0.0</value>
+        <value>0.2</value>
+        <value>-0.25</value>
+        <value>-0.5</value>
+        <value>-1.0</value>
+      </pattern>
+      <position1 x="3.0" y="-3.0" />
+      <position2 x="1.0" y="-4.0" />
+      <fire interval="0.75" />
+      <hp>5</hp>
+    </enemy>
+    <enemy name="boss_1" prefab="vidal01" boss="1">
+      <pattern>
+        <value>-2.0</value>
+        <value>-1.5</value>
+        <value>-1.0</value>
+        <value>-0.5</value>
+        <value>-0.25</value>
+        <value>0.0</value>
+        <value>0.25</value>
+        <value>0.5</value>
+        <value>1.0</value>
+        <value>1.5</value>
+        <value>2.0</value>
+      </pattern>
+      <position1 x="-0.5" y="-3" />
+      <position2 x="0.5" y="-3" />
+      <fire interval="1.0" />
+      <hp>100</hp>
+    </enemy>
+  </enemies>
+  <levels>
+    <level number="1">
+      <wave interval="10.0">
+        <enemy name="enemy_left_easy" interval="0.0" />
+        <enemy name="enemy_right_easy" interval="4.0" />
+        <enemy name="enemy_middle_super_easy" interval="12.0" />
+        <enemy name="enemy_left_easy" interval="0.0" />
+        <enemy name="enemy_right_easy" interval="4.0" />
+        <enemy name="enemy_left_easy" interval="0.0" />
+        <enemy name="enemy_right_easy" interval="0.0" />
+      </wave>
+      <wave interval="10.0">
+        <enemy name="enemy_left_easy" interval="0.0" />
+        <enemy name="enemy_right_easy" interval="0.0" />
+        <enemy name="enemy_middle_easy" interval="4.0" />
+        <enemy name="enemy_left_easy" interval="0.0" />
+        <enemy name="enemy_right_easy" interval="0.0" />
+        <enemy name="enemy_middle_easy" interval="2.0" />
+        <enemy name="enemy_left_easy" interval="0.0" />
+        <enemy name="enemy_right_easy" interval="0.0" />
+        <enemy name="enemy_middle_easy" interval="0.0" />
+      </wave>
+      <wave interval="10.0">
+        <enemy name="enemy_left_medium" interval="0.0" />
+        <enemy name="enemy_right_medium" interval="0.0" />
+        <enemy name="enemy_middle_left_medium" interval="0.0" />
+        <enemy name="enemy_middle_right_medium" interval="0.0" />
+        <enemy name="enemy_right_medium" interval="0.0" />
+        <enemy name="enemy_middle_medium" interval="10.0" />
+        <enemy name="enemy_left_medium" interval="0.0" />
+        <enemy name="enemy_right_medium" interval="0.0" />
+        <enemy name="enemy_middle_left_medium" interval="0.0" />
+        <enemy name="enemy_middle_right_medium" interval="0.0" />
+        <enemy name="enemy_middle_medium" interval="10.0" />
+        <enemy name="enemy_left_medium" interval="0.0" />
+        <enemy name="enemy_right_medium" interval="0.0" />
+        <enemy name="enemy_middle_left_medium" interval="0.0" />
+        <enemy name="enemy_middle_right_medium" interval="0.0" />
+        <enemy name="enemy_middle_medium" interval="0.0" />
+      </wave>
+      <wave interval="20.0">
+        <enemy name="enemy_left_hard" interval="0.0" />
+        <enemy name="enemy_right_hard" interval="0.0" />
+        <enemy name="enemy_middle_left_hard" interval="0.0" />
+        <enemy name="enemy_middle_right_hard" interval="0.0" />
+        <enemy name="enemy_right_hard" interval="0.0" />
+        <enemy name="enemy_middle_hard" interval="20.0" />
+        <enemy name="enemy_left_hard" interval="0.0" />
+        <enemy name="enemy_right_hard" interval="0.0" />
+        <enemy name="enemy_middle_left_hard" interval="0.0" />
+        <enemy name="enemy_middle_right_hard" interval="0.0" />
+        <enemy name="enemy_middle_hard" interval="20.0" />
+        <enemy name="enemy_left_hard" interval="0.0" />
+        <enemy name="enemy_right_hard" interval="0.0" />
+        <enemy name="enemy_middle_left_hard" interval="0.0" />
+        <enemy name="enemy_middle_right_hard" interval="0.0" />
+        <enemy name="enemy_middle_hard" interval="0.0" />
+      </wave>
+      <wave interval="30.0">
+        <enemy name="boss_1" interval="0.5" />
+      </wave>
+    </level>
+  </levels>
+</patterns>

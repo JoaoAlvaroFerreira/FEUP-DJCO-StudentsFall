@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5277ab2f5cfa7c9479f5f8ef0cec12e5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - book_bullet: {instanceID: 0}
+  - character: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
